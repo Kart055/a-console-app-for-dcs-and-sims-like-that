@@ -480,3 +480,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Ignore everything in bin and obj, except final .exe outputs
+bin/
+obj/
+!bin/Debug/net10.0/*.exe
+!bin/Release/net10.0/*.exe
