@@ -1,0 +1,109 @@
+{
+  "id": "mig29a",
+  "name": "MiG-29A Fulcrum",
+
+  "fuel": {
+    "internalFuelKg": 3500,
+    "externalFuelKg": 0
+  },
+
+  "engine": {
+    "model": "Klimov RD-33",
+    "engineCount": 2,
+
+    "powerSettings": [
+      {
+        "powerMode": "Idle",
+        "referenceThrustKgf": 0,
+        "tsfcKgPerKgfHour": null,
+        "directFuelFlowKgPerHour": 544,
+        "isEstimate": true,
+        "source": "Approximate combined two-engine ground/static idle flow."
+      },
+      {
+        "powerMode": "Military",
+        "referenceThrustKgf": 5040,
+        "tsfcKgPerKgfHour": 0.76,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "RD-33 public engine data."
+      },
+      {
+        "powerMode": "Afterburner",
+        "referenceThrustKgf": 8300,
+        "tsfcKgPerKgfHour": 2.00,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "RD-33 public engine data."
+      }
+    ]
+  },
+
+  "performance": {
+    "maximumSpeedKmh": 2450,
+    "serviceCeilingMeters": 18000,
+    "combatRadiusKm": 640,
+    "ferryRangeKm": 2100,
+
+    "source": "DCS MiG-29 9-12 public flight manual.",
+
+    "fuelFlow": [
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 0,
+        "fuelFlowKgPerHour": 544,
+        "isEstimate": true,
+        "source": "Ground/static idle estimate."
+      },
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 606,
+        "fuelFlowKgPerHour": 771,
+        "isEstimate": true,
+        "source": "Flight-idle estimate at ~20,000 ft."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 735,
+        "fuelFlowKgPerHour": 4763,
+        "isEstimate": true,
+        "source": "Military-power sea-level ref near Mach 0.6."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 910,
+        "fuelFlowKgPerHour": 4082,
+        "isEstimate": true,
+        "source": "Military-power ref at ~20,000 ft,Mach 0.8."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 10668,
+        "trueAirspeedKmh": 980,
+        "fuelFlowKgPerHour": 3130,
+        "isEstimate": true,
+        "source": "Military-power high-altitude ref at ~35,000 ft,Mach 0.9."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 1100,
+        "fuelFlowKgPerHour": 24040,
+        "isEstimate": true,
+        "source": "Full-afterburner sea-level ref near Mach 0.9."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 9144,
+        "trueAirspeedKmh": 1300,
+        "fuelFlowKgPerHour": 19958,
+        "isEstimate": true,
+        "source": "Full-afterburner high-altitude ref at ~30,000 ft, Mach 1.2."
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "f15c",
+  "name": "F-15C Eagle",
+
+  "fuel": {
+    "internalFuelKg": 6103,
+    "externalFuelKg": 5541
+  },
+
+  "engine": {
+    "model": "Pratt & Whitney F100-PW-220",
+    "engineCount": 2,
+
+    "powerSettings": [
+      {
+        "powerMode": "Idle",
+        "referenceThrustKgf": 0,
+        "tsfcKgPerKgfHour": null,
+        "directFuelFlowKgPerHour": 500,
+        "isEstimate": true,
+        "source": "Approximate engineering estimate;"
+      },
+      {
+        "powerMode": "Military",
+        "referenceThrustKgf": 8074,
+        "tsfcKgPerKgfHour": 0.76,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "F100-PW-220 public engine specifications."
+      },
+      {
+        "powerMode": "Afterburner",
+        "referenceThrustKgf": 13225,
+        "tsfcKgPerKgfHour": 1.94,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "F100-PW-220 public engine specifications."
+      }
+    ]
+  },
+
+  "performance": {
+    "maximumSpeedKmh": 2665,
+    "serviceCeilingMeters": 20000,
+    "combatRadiusKm": 1967,
+    "ferryRangeKm": 5550,
+
+    "fuelFlow": [
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 0,
+        "fuelFlowKgPerHour": 635,
+        "isEstimate": true,
+        "source": "Ground/static idle ref."
+      },
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 606,
+        "fuelFlowKgPerHour": 862,
+        "isEstimate": true,
+        "source": "Flight idle ref at ~20,000 ft."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 735,
+        "fuelFlowKgPerHour": 9979,
+        "isEstimate": true,
+        "source": "Military-power ref at sea level, Mach 0.6."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 262,
+        "fuelFlowKgPerHour": 4672,
+        "isEstimate": true,
+        "source": "Military-power ref at ~20,000 ft and Mach 0.8."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 10668,
+        "trueAirspeedKmh": 266,
+        "fuelFlowKgPerHour": 3629,
+        "isEstimate": true,
+        "source": "Military-power ref at ~35,000 ft, Mach 0.9."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 306,
+        "fuelFlowKgPerHour": 24040,
+        "isEstimate": true,
+        "source": "Full-afterburner ref at sea level."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 9144,
+        "trueAirspeedKmh": 367,
+        "fuelFlowKgPerHour": 17690,
+        "isEstimate": true,
+        "source": "Full-afterburner ref at ~30,000 ft, Mach 1.2."
+      }
+    ]
+  }
+}

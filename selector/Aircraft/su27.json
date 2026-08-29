@@ -1,0 +1,109 @@
+{
+  "id": "su27",
+  "name": "Su-27 Flanker",
+
+  "fuel": {
+    "internalFuelKg": 9400,
+    "externalFuelKg": 0
+  },
+
+  "engine": {
+    "model": "Saturn/Lyulka AL-31F",
+    "engineCount": 2,
+
+    "powerSettings": [
+      {
+        "powerMode": "Idle",
+        "referenceThrustKgf": 0,
+        "tsfcKgPerKgfHour": null,
+        "directFuelFlowKgPerHour": 450,
+        "isEstimate": true,
+        "source": "Approximate engineering estimate."
+      },
+      {
+        "powerMode": "Military",
+        "referenceThrustKgf": 7670,
+        "tsfcKgPerKgfHour": 0.75,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "Public AL-31F/Su-27 engine data."
+      },
+      {
+        "powerMode": "Afterburner",
+        "referenceThrustKgf": 12500,
+        "tsfcKgPerKgfHour": 1.92,
+        "directFuelFlowKgPerHour": null,
+        "isEstimate": true,
+        "source": "Public AL-31F/Su-27 engine data."
+      }
+    ]
+  },
+
+  "performance": {
+    "maximumSpeedKmh": 2500,
+    "serviceCeilingMeters": 18500,
+    "combatRadiusKm": 0,
+    "ferryRangeKm": 3530,
+
+    "source": "DCS Su-27 public flight manual and public aircraft references.",
+
+    "fuelFlow": [
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 0,
+        "fuelFlowKgPerHour": 590,
+        "isEstimate": true,
+        "source": "Ground/static idle estimate."
+      },
+      {
+        "powerMode": "Idle",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 606,
+        "fuelFlowKgPerHour": 816,
+        "isEstimate": true,
+        "source": "Flight-idle estimate at approximately 20,000 ft."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 735,
+        "fuelFlowKgPerHour": 9525,
+        "isEstimate": true,
+        "source": "Military-power sea-level reference near Mach 0.6."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 6096,
+        "trueAirspeedKmh": 910,
+        "fuelFlowKgPerHour": 4400,
+        "isEstimate": true,
+        "source": "Military-power reference at ~20,000 ft, Mach 0.8."
+      },
+      {
+        "powerMode": "Military",
+        "altitudeMeters": 10668,
+        "trueAirspeedKmh": 980,
+        "fuelFlowKgPerHour": 3311,
+        "isEstimate": true,
+        "source": "Military-power high-altitude reference at ~35,000 ft, Mach 0.9."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 0,
+        "trueAirspeedKmh": 1100,
+        "fuelFlowKgPerHour": 26309,
+        "isEstimate": true,
+        "source": "Full-afterburner sea-level reference near Mach 0.9."
+      },
+      {
+        "powerMode": "Afterburner",
+        "altitudeMeters": 9144,
+        "trueAirspeedKmh": 1300,
+        "fuelFlowKgPerHour": 19051,
+        "isEstimate": true,
+        "source": "Full-afterburner high-altitude reference at ~30,000 ft, Mach 1.2."
+      }
+    ]
+  }
+}
