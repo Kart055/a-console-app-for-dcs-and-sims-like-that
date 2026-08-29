@@ -1,7 +1,8 @@
 this is an application which can be used in DCS or other close-to-realistic simulators for corresponding aircraft.
 
+windows smartscreen may display an "unknown publisher" warning, this does not by itself indicate that the application contains malware. react accordingly by allowing the specific folder through the antivirus, do not disable it completely.
 
-
+the complete source code is available in this repository for inspection.
 
 for now, only the F-15C, MiG-29A and Su-27 are available for calculation, I will probably add more aircraft using the same public sources and DCS documents as I did with these.
 
