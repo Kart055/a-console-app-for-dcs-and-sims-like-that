@@ -7,6 +7,8 @@ the complete source code is available in this repository for inspection.
 for now, only the F-15C, MiG-29A and Su-27 are available for calculation, I will probably add more aircraft using the same public sources and DCS documents as I did with these.
 
 
+https://github.com/Kart055/a-console-app-for-dcs-and-sims-like-that/releases/tag/baseline
+
 
 credit me if you use it in your projects
 
