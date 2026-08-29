@@ -7,11 +7,14 @@ for now, only the F-15C, MiG-29A and Su-27 are available for calculation, I will
 
 
 
+credit me if you use it in your projects
+
+
 
 for inquiries, contact me on discord: kart055
 
 
-enjoy
+thank you and enjoy
 
 <img width="825" height="500" alt="image" src="https://github.com/user-attachments/assets/059fdfef-28d3-40a7-8327-8e18eeaa6773" />
 <img width="826" height="505" alt="image" src="https://github.com/user-attachments/assets/46611949-f6ae-43bc-9756-d8ee666c9da1" />
