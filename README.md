@@ -1,6 +1,6 @@
-this is an application which can be used in DCS or other close-to-realistic simulators for corresponding aircraft.
+this is an application which can be used for DCS or other close-to-realistic simulators for corresponding aircraft.
 
-windows smartscreen may display an "unknown publisher" warning, this does not by itself indicate that the application contains malware. react accordingly by allowing the specific folder through the antivirus, do not disable it completely.
+windows smartscreen may or may not display an "unknown publisher" warning, this does not by itself indicate that the application contains malware. react accordingly by allowing the specific folder through the antivirus, do not disable it completely.
 
 the complete source code is available in this repository for inspection.
 
